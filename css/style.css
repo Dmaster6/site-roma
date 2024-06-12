@@ -309,5 +309,24 @@ margin-top: -20px;
         height: 350px;
         
      }
+     .secao{
+        width: 568px;
+     }
+     .secao1{
+        width: 864px;
+     }
+     .cultura-img img{
+        height: 250px;
+     }
+     .templo img{
+        height: 360px;
+     }
+     .lingua img{
+        height: 280px;
+     }
+
+     .container-videos{
+        width: 970px;
+     }
    }
 
