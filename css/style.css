@@ -1,0 +1,301 @@
+
+/* CSS GLOBAL*/
+*{
+    padding: 0;
+    margin: 0 ;
+}
+
+:root{
+    --color-primary: #B22222;
+    --color-secondary: #F4A460;
+    --color-terciary:#FFD700;
+    --color-background:#ffd900bd;
+
+}
+
+body{
+    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#cabecalho{
+    background-color: var(--color-primary);
+    height: 4em;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#cabecalho #menu a{
+    color: var(--color-secondary);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 102px;
+    padding-right: 102px;
+    display: block;
+    text-decoration: none;
+    transition: all 0.2s linear;
+ }
+
+
+ #cabecalho #menu a:hover{
+    background-color: var(--color-terciary);
+ }
+
+#cabecalho #menu ul{
+    display: flex;
+  
+
+}
+
+.container{
+    max-width: 100%;
+    margin: auto;
+    
+}
+
+
+.titulo {
+    text-align: center;
+    color: var(--color-primary);
+    font-size: 1.5em;
+    margin-bottom: 70px;
+    
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.texto-corpo{
+   text-align: justify;
+   font-size: 1.3em;
+   margin-right: 30px;
+   margin-left: 30px;
+   line-height: 1.5em;
+}
+
+.texto-corpo p{
+    margin-bottom: 20px;
+}
+
+.texto-corpo li{
+    line-height: 1.8em;
+}
+
+#cabecalho .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cabecalho #menu li{
+    list-style: none;
+    font-size: 22px;
+    
+ }
+
+
+ #rodape{
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+   
+}
+footer a{
+    text-decoration: none;
+    color: var(--color-secondary);
+   
+}
+
+footer a:hover{
+    text-decoration: underline;
+
+}
+
+/*CSS CULTURA EXCLUSIVO*/
+#titulo-video{
+   text-align: left; 
+   margin-left: 80px;
+}
+.secao{
+    width: 800px;
+    padding: 20px;
+    background-color: var(--color-background);
+    border-radius: 14px;
+    margin-left: auto;
+    margin-right: 15%;
+    margin-bottom: 30px;
+    border: solid 3px var(--color-primary);
+}
+
+.secao1{
+    
+        width: 1080px;
+        padding: 20px;
+        background-color: var(--color-background);
+        border-radius: 14px;
+        margin-left: auto;
+        margin-right: 15%;
+        margin-bottom: 30px;
+        border: solid 3px var(--color-primary);
+    
+}
+
+.container-cultura{
+    width: 28%;
+}
+.texto-cultura{
+    text-align: justify;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    
+}
+
+.cor{
+    color: #663399;
+}
+
+.texto-cultura p{
+    margin-bottom: 10px;
+}
+
+.cultura-img img{
+    width: 260px;
+    height: 205px;
+    margin-left: 65%;
+    margin-bottom: 12px;
+}
+ .templo img{
+    width: 260px;
+    height: 270px;
+}
+
+.lingua img{
+    height: 220px;
+}
+
+.videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 90px;
+    gap: 13px;
+
+}
+
+.videos iframe{
+    width: 100%;
+}
+
+.container-videos{
+max-width: 1200px;
+margin: auto;
+}
+/* CSS HISTORIA ESCLUSIVO*/
+.subtitle h3{
+    text-align: left; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.meio figure{
+  text-align: center;
+}
+
+.meio img{
+    width: 500px;
+    height: 400px;
+}
+
+.legendaH{
+ font-style: italic;
+ font-size: 0.7em;
+}
+/*CSS INDEX EXCLUSIVO*/
+.palavra{
+    font-style: italic;
+}
+.img-body #index {
+    margin-right: 20px;
+    margin-top: -70px;
+    
+}
+.img-body figure{
+    margin-bottom: 0%;
+    float: left;
+}
+.img-body .legenda  {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.61);
+    margin-left: 5px;
+}
+
+/* CSS IMPERADORES EXCLUSIVO */
+.texto-imperador li{
+   margin-left: 28%;
+   line-height: 2.1em;
+}
+.imperador-imagem img{
+    width: 240px;
+    height: 313px;
+    float: left;
+}
+/*CSS TERRITORIO EXCLUSIVO */
+.container-fotos{
+    width: 80%;
+}
+#secao{
+    margin-left: 210px; 
+}
+#territorio img {
+   margin-left: 10px;
+   width: 400px;
+   height: 400px;
+   
+}
+.fotos #mapas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+   
+    
+}
+/*USADO EM MAIS DE UMA PAGINA PORÉM NÃO É GLOBAL*/
+.titulo .v2{
+    margin-bottom: -40px;
+}
+.subtitle h2{
+    text-align: left;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.corpo{
+    background-color: var(--color-background);
+    width: 60%;
+    margin-left: 20%;    
+    
+
+} 
+.img-body img{
+    float: left;
+}
+
+.fundo #rodape{
+margin-top: -20px;
+}
+
+.fotos img {
+    transition: all 0.5s;
+}
+
+.fotos img:hover{
+    transform: scale(0.9);
+}
+
+
+
