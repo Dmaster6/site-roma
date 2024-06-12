@@ -12,13 +12,14 @@
     --color-background:#ffd900bd;
 
 }
-
 body{
     background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+
+
 #cabecalho{
     background-color: var(--color-primary);
     height: 4em;
@@ -297,5 +298,16 @@ margin-top: -20px;
     transform: scale(0.9);
 }
 
-
+@media (max-width: 1400px){
+    #cabecalho #menu a{
+           padding-left: 70px;
+       padding-right: 80px;
+       }
+       #territorio img {
+        margin-left: 10px;
+        width: 350px;
+        height: 350px;
+        
+     }
+   }
 
